@@ -20,6 +20,7 @@
     "file-system": "^2.2.2",
     "http": "0.0.0",
     "moment": "^2.22.1",
+    "monk": "^6.0.5",
     "morgan": "^1.9.0",
     "mysportsfeeds-node": "^1.0.0",
     "node": "8.9.4",
