@@ -1,0 +1,185 @@
+{
+  "mlbColors": [
+     {
+      "logo": "https://content.mlb.com/documents/7/7/4/267274774/116.svg",
+      "name": "Tigers",
+      "colors": {
+        "primary": "#0C2340",
+        "secondary": "#FA4616"
+      }},{
+    "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520455084/images/logos/team-cap-on-light/158.svg",
+    "name": "Brewers",
+    "colors": {
+      "primary": "#13294B",
+      "secondary": "#85714D"
+    }},{ 
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-primary-on-light/146.svg",
+    "name": "Marlins",
+    "colors": {
+      "primary": "#ED6F2E",
+      "secondary": "#0077C8"
+    }},{
+    "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-primary-on-light/108.svg",
+    "name":"Angels",
+    "colors": {
+      "primary": "#003263",
+      "secondary": "#BA0021"
+    }},{
+    "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520455084/images/logos/team-primary-on-dark/119.svg",
+    "name": "Dodgers",
+    "colors": {
+      "primary": "#005A9C",
+      "secondary": "#E4002B"
+    }},{
+    "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-primary-on-dark/118.svg",
+    "name": "Royals",
+    "colors": {
+      "primary": "#004687",
+      "secondary": "#7AB2DD"
+    }},{
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-primary-on-light/117.svg",
+    "name": "Astros",
+    "colors": {
+      "primary": "#002D62",
+      "secondary": "#EB6E1F"
+    }},{
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-cap-on-dark/115.svg",
+    "name": "Rockies",
+    "colors": {
+      "primary": "#330072",
+      "secondary": "#C4CED4"
+    }},{
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-primary-on-light/114.svg",
+    "name": "Indians",
+    "colors": {
+      "primary": "#0C2340",
+      "secondary": "#D50032"
+    }},{
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-primary-on-light/113.svg",
+    "name": "Reds",
+    "colors": {
+      "primary": "#D50032",
+      "secondary": "#000000"
+    }},{
+      "logo": "http://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/chw.png&h=150&w=150",
+    "name": "White Sox",
+     "colors": {
+      "primary": "#27251F",
+      "secondary": "#8A8D8F"
+    }},{
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-primary-on-light/112.svg",
+    "name": "Cubs",
+      "colors": {
+      "primary": "#002F6C",
+      "secondary": "#C8102E"
+    }},{
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-primary-on-light/111.svg",
+    "name": "Red Sox",
+    "colors": {
+      "primary": "#C8102E",
+      "secondary": "#0C2340"
+    }},{
+    "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520455084/images/logos/team-primary-on-dark/110.svg",
+    "name": "Orioles",
+    "colors": {
+      "primary": "#FC4C02",
+      "secondary": "#27251F"
+    }},{
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-primary-on-dark/144.svg",
+    "name": "Braves",
+    "colors": {
+      "primary": "#BA0C2F",
+      "secondary": "#0C2340"
+    }},{
+      "logo": "https://content.mlb.com/documents/6/4/2/265720642/ARI_Logo.svg",
+    "name": "Diamondbacks",
+    "colors": {
+      "primary": "#A71930",
+      "secondary": "#E3D4AD"
+    }},{
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-primary-on-dark/120.svg",
+    "name": "Nationals",
+    "colors": {
+      "primary": "#BA122B",
+      "secondary": "#14225A"
+    }},{
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-primary-on-light/141.svg",
+    "name": "Blue Jays",
+    "colors": {
+      "primary": "#134A8E",
+      "secondary": "#1D2D5C"
+    }},{
+      "logo": "http://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/tex.png&h=150&w=150",
+    "name": "Rangers",
+    "colors": {
+      "primary": "#C0111F",
+      "secondary": "#003278"
+    }},{
+      "logo": "http://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/tb.png&h=150&w=150",
+    "name": "Rays",
+    "colors": {
+      "primary": "#092C5C",
+      "secondary": "#8FBCE6"
+    }},{
+      "logo": "http://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/stl.png&h=150&w=150",
+    "name": "Cardinals",
+    "colors": {
+      "primary": "#BA0C2F",
+      "secondary": "#0C2340"
+    }},{
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-primary-on-light/136.svg",
+    "name": "Mariners",
+    "colors": {
+      "primary": "#0C2340",
+      "secondary": "#00685E"
+    }},{
+      "logo": "https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/teamPicThumb1161130-21134-1yuerb7.png",
+    "name": "Giants",
+    "colors": {
+      "primary": "#FA4616",
+      "secondary": "#27251F"
+    }},{
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-primary-on-dark/135.svg",
+    "name": "Padres",
+    "colors": {
+      "primary": "#041E42",
+      "secondary": "#A2AAAD"
+    }},{
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-primary-on-light/134.svg",
+    "name": "Pirates",
+    "colors": {
+      "primary": "#27251F",
+      "secondary": "#FFC72C"
+    }},{
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-wordmark-on-light/143.svg",
+    "name": "Phillies",
+    "colors": {
+      "primary": "#BA0C2F",
+      "secondary": "#003087"
+    }},{
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-primary-on-light/133.svg",
+    "name": "Athletics",
+    "colors": {
+      "primary": "#034638",
+      "secondary": "#FFB81C"
+    }},{
+      "logo": "http://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/nyy.png&h=150&w=150",
+    "name": "Yankees",
+    "colors": {
+      "primary": "#003087",
+      "secondary": "#E4002C"
+    }},{
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-primary-on-dark/121.svg",
+    "name": "Mets",
+    "colors": {
+      "primary": "#002D72",
+      "secondary": "#FC4C02"
+    }},{
+      "logo": "https://www.mlbstatic.com/mlb.com/builds/site-core/52f9b8565cbfb77a553ebe8075945729d3a1bcd3_1520628201/images/logos/team-cap-on-dark/142.svg",
+    "name": "Twins",
+    "colors": {
+      "primary": "#0C2340",
+      "secondary": "#BA0C2F"
+    }}
+  ]
+}
