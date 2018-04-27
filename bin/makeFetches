@@ -20,6 +20,7 @@ const cache = require('../cache.js');
 const cacheFetch = require('../cache-fetch.js');
 const mongo = require('../mongoBaseball');
 const fetches = require('../fetches.js')
+const batterCum = require('./batterCum.js');
 
 function run(){
   fetches.rosterPlayers()
@@ -39,6 +40,9 @@ function run(){
     setTimeout(()=>{
       fetches.fetchBatterCumulative()
     }, 30000)
+  })
+  .then(()=>{
+    batterCum.addBatterStats()
   })
   
 }
