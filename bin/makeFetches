@@ -41,10 +41,10 @@ function run(){
       fetches.fetchBatterCumulative()
     }, 30000)
   })
-  .then(()=>{
-    setTimeout(() => {
-      batterCum.getBatterStats()
-    }, 30000)  })
+  // .then(()=>{
+  //   setTimeout(() => {
+  //     batterCum.getBatterStats()
+  //   }, 30000)  })
   
 }
 run()
