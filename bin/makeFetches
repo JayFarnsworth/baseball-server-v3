@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+
+const http = require('http')
+const express = require('express')
+const request = require('request')
+const bodyParser = require('body-parser')
+const tabletojson = require('tabletojson')
+const morgan = require('morgan')
+const cors = require('cors')
+const app = module.exports = express()
+const server = http.createServer(app)
+const port = parseInt(process.env.PORT || 4000)
+const devMode = process.env.NODE_ENV !== 'production'
+const cheerio = require('cheerio');
+const idList = require('./assets/player_ids.json');
+const teamColors = require('./assets/teamColors.json');
+const fetch = require('node-fetch');
+const fs = require('fs');
+const cache = require('./cache.js');
+const cacheFetch = require('./cache-fetch.js');
+const mongo = require('./mongoBaseball');
+const fetches = require('./fetches.js')
+
+fetches.go()
+process.exit()
