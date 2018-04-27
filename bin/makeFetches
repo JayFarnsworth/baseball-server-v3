@@ -42,7 +42,7 @@ function run(){
     }, 30000)
   })
   .then(()=>{
-    batterCum.addBatterStats()
+    batterCum.getBatterStats()
   })
   
 }
