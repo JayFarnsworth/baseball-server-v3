@@ -280,20 +280,19 @@ const makeFetches = () => {
   return Promise.all([
   getBatterUrls(),
   fetchBatterCumulative(),
-  getPitcherUrls(),
-  fetchPitcherCumulative(),
-  getBatterLogUrls(),
-  fetchBatterLogs(),
-  getPitcherLogUrls(),
-  fetchPitcherLogs(),
   ])
 }
 function go(){
   rosterPlayers()
     .then(makeFetches)
-    .then(process.exit)
 }
 
 
 module.exports = { getBatterUrls, getPitcherUrls, getBatterLogUrls, getPitcherLogUrls, makeFetches, rosterPlayers, go }
 
+// getPitcherUrls(),
+//   fetchPitcherCumulative(),
+//   getBatterLogUrls(),
+//   fetchBatterLogs(),
+//   getPitcherLogUrls(),
+//   fetchPitcherLogs(),
