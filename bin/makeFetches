@@ -27,10 +27,20 @@ function run(){
     fetches.getBatterUrls()
   })
   .then(()=>{
+    fetches.getBatterLogUrls()
+  })
+  .then(() => {
+    fetches.getPitcherUrls()
+  })
+  .then(()=>{
+    fetches.getPitcherLogUrls()
+  })
+  .then(()=>{
     setTimeout(()=>{
       fetches.fetchBatterCumulative()
-    }, 15000)
+    }, 30000)
   })
+  
 }
 run()
 // process.exit()

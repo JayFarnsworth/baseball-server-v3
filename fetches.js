@@ -12,8 +12,8 @@ const fs = require('fs');
 const cache = require('./cache.js');
 const cacheFetch = require('./cache-fetch.js');
 const schedule = require('node-schedule');
-const delay = 10000;
-const logDelay = 20000;
+const delay = 5000;
+const logDelay = 15000;
 
 
 // all MLB team abbreviations;
@@ -169,7 +169,7 @@ function urlIdList(set){
 
 // get team's batter's urls
 function getBatterUrls() {
-  cache.get('teamObject')
+  return cache.get('teamObject')
   .then(playerObject=>{
     var urlList = [];
     for (let team of teams) {
