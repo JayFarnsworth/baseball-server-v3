@@ -182,8 +182,7 @@ function getBatterUrls() {
         urlList.push(url)
       }
     }
-    cache.set('batterStatUrls', urlList)
-    return urlList
+    return cache.set('batterStatUrls', urlList)
   }).catch(err => { console.log(err) })
 }
 
