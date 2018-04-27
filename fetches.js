@@ -278,21 +278,32 @@ function fetchPitcherLogs() {
 
 const makeFetches = () => {
   return Promise.all([
-  getBatterUrls(),
   fetchBatterCumulative(),
-  getPitcherUrls(),
   fetchPitcherCumulative(),
-  getBatterLogUrls(),
   fetchBatterLogs(),
-  getPitcherLogUrls(),
   fetchPitcherLogs(),
   ])
 }
 function go(){
   rosterPlayers()
+    .then(getBatterUrls)
+    .then(getPitcherUrls)
+    .then(getBatterLogUrls)
+    .then(getPitcherLogUrls)
     .then(makeFetches)
 }
 
-
 module.exports = { getBatterUrls, getPitcherUrls, getBatterLogUrls, getPitcherLogUrls, makeFetches, rosterPlayers, go }
 
+// const makeFetches = () => {
+//   return Promise.all([
+//     getBatterUrls(),
+//     fetchBatterCumulative(),
+//     getPitcherUrls(),
+//     fetchPitcherCumulative(),
+//     getBatterLogUrls(),
+//     fetchBatterLogs(),
+//     getPitcherLogUrls(),
+//     fetchPitcherLogs(),
+//   ])
+// }
