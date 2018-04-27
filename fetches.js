@@ -16,8 +16,6 @@ const delay = 10000;
 const logDelay = 20000;
 
 
-module.exports = { getBatterUrls, getPitcherUrls, getBatterLogUrls, getPitcherLogUrls }
-
 // all MLB team abbreviations;
 const teams = ['ARI', 'ATL', 'BAL', 'BOS', 'CHC', 'CIN', 'CLE', 'COL', 'CWS', 'DET', 'HOU', 'KC', 'LAA', 'LAD', 'MIA', 'MIL', 'MIN', 'NYM', 'NYY', 'OAK', 'PHI', 'PIT', 'SD', 'SEA', 'SF', 'STL', 'TB', 'TEX', 'TOR', 'WAS'];
 
@@ -290,25 +288,12 @@ const makeFetches = () => {
   fetchPitcherLogs(),
   ])
 }
-rosterPlayers()
-  .then(makeFetches)
+function go(){
+  rosterPlayers()
+    .then(makeFetches)
+    .then(process.exit)
+}
 
 
-// const request = async () => {
-//   const players = await rosterPlayers()
-//   const batterUrls = await getBatterUrls()
-//   const batters = await fetchBatterCumulative()
-//   const pitcherUrls = await getPitcherUrls()
-//   const pitchers = await fetchPitcherCumulative()
-//   const batterLogUrls = await getBatterLogUrls()
-//   const batterLogs = await fetchBatterLogs()
-//   const pitcherLogUrls = await getPitcherLogUrls()
-//   const pitcherLogs = await fetchPitcherLogs()
-// }
-// request()
-// schedule.scheduleJob('0 3 * * *', () => { 
-//   request()
-//  })
-
-// rosterPlayers()
+module.exports = { getBatterUrls, getPitcherUrls, getBatterLogUrls, getPitcherLogUrls, makeFetches, rosterPlayers, go }
 
