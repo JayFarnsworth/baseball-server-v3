@@ -27,7 +27,9 @@ function run(){
     fetches.getBatterUrls()
   })
   .then(()=>{
-    fetches.fetchBatterCumulative()
+    setTimeout(()=>{
+      fetches.fetchBatterCumulative()
+    }, 15000)
   })
 }
 run()
