@@ -43,7 +43,7 @@ function run(){
   })
   .then(()=>{
     setTimeout(() => {
-      fetches.getBatterStats()
+      batterCum.getBatterStats()
     }, 30000)  })
   
 }
