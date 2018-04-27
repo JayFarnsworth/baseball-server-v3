@@ -22,4 +22,4 @@ const mongo = require('../mongoBaseball');
 const fetches = require('../fetches.js')
 
 fetches.go()
-process.exit()
+// process.exit()
