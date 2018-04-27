@@ -25,20 +25,20 @@ const batterCum = require('../batterCum.js');
 function run(){
   fetches.rosterPlayers()
   .then(()=>{
-    fetches.getBatterUrls()
+    return fetches.getBatterUrls()
   })
   .then(()=>{
-    fetches.getBatterLogUrls()
+    return fetches.getBatterLogUrls()
   })
   .then(() => {
-    fetches.getPitcherUrls()
+    return fetches.getPitcherUrls()
   })
   .then(()=>{
-    fetches.getPitcherLogUrls()
+    return fetches.getPitcherLogUrls()
   })
   .then(()=>{
     setTimeout(()=>{
-      fetches.fetchBatterCumulative()
+      return fetches.fetchBatterCumulative()
     }, 30000)
   })
   // .then(()=>{
