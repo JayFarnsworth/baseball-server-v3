@@ -30,4 +30,5 @@ function run(){
     fetches.fetchBatterCumulative()
   })
 }
+run()
 // process.exit()
