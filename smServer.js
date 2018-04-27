@@ -20,6 +20,8 @@ const mongo = require('./mongoBaseball');
 const fetches = require('./fetches.js')
 
 
+
+
 var rp = require('request-promise');
 const teams = ['ARI', 'ATL', 'BAL', 'BOS', 'CHC', 'CIN', 'CLE', 'COL', 'CWS', 'DET', 'HOU', 'KC', 'LAA', 'LAD', 'MIA', 'MIL', 'MIN', 'NYM', 'NYY', 'OAK', 'PHI', 'PIT', 'SD', 'SEA', 'SF', 'STL', 'TB', 'TEX', 'TOR', 'WAS'];
 const testingDate = '20170920';

@@ -21,5 +21,13 @@ const cacheFetch = require('../cache-fetch.js');
 const mongo = require('../mongoBaseball');
 const fetches = require('../fetches.js')
 
-fetches.go()
+function run(){
+  fetches.rosterPlayers()
+  .then(()=>{
+    fetches.getBatterUrls()
+  })
+  .then(()=>{
+    fetches.fetchBatterCumulative()
+  })
+}
 // process.exit()

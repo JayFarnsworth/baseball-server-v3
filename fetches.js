@@ -293,7 +293,7 @@ function go(){
     .then(makeFetches)
 }
 
-module.exports = { getBatterUrls, getPitcherUrls, getBatterLogUrls, getPitcherLogUrls, makeFetches, rosterPlayers, go }
+module.exports = { getBatterUrls, getPitcherUrls, getBatterLogUrls, getPitcherLogUrls, fetchBatterCumulative, makeFetches, rosterPlayers, go }
 
 // const makeFetches = () => {
 //   return Promise.all([
